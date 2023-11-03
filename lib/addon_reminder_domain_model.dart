@@ -1,0 +1,3 @@
+class AddonReminderDomainModel {}
+
+class AddonReminderPostDomainModel {}

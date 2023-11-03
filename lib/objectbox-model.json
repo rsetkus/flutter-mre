@@ -1,0 +1,50 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5970352587740713152",
+      "lastPropertyId": "5:2746755600162819742",
+      "name": "AddonReminderDataModel",
+      "properties": [
+        {
+          "id": "1:7232336081297131393",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:385683250195276178",
+          "name": "addonId",
+          "type": 9,
+          "flags": 2048,
+          "indexId": "1:2078510235176453190"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:8874867350009558073",
+  "lastIndexId": "2:1621161587764414761",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    7860671258040706234,
+    8874867350009558073
+  ],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    7872167856891936808,
+    2345352931768177884,
+    8194163200120794815,
+    2806153933844992405,
+    262420994557949541,
+    6274300530784901646,
+    2746755600162819742
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

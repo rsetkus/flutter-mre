@@ -1,7 +1,28 @@
-import 'package:flutter/material.dart';
+import 'dart:async';
 
-void main() {
-  runApp(const MyApp());
+import 'package:flutter/material.dart';
+import 'get_active_addon_reminders_use_case.dart';
+import 'injection_container.dart' as di;
+
+void main() async {
+  await runZonedGuarded(
+      () async {
+        await _registerDependencies();
+        _doBadThings();
+        runApp(const MyApp());
+      },
+      (error, stackTrace) {
+        debugPrint("Error: $error");
+      }
+  );
+}
+
+Future<void> _registerDependencies() async {
+  await di.init();
+}
+
+void _doBadThings() {
+  di.injector<GetActiveAddonRemindersUseCase>().call();
 }
 
 class MyApp extends StatelessWidget {
