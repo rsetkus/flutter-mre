@@ -1,0 +1,19 @@
+# Use following command for benchmarking, this will clear cache of generated files and start
+# build_runner for all targets enabled in build.yaml file:
+# '''bash
+# rm -rf .dart_tool/build && \
+#   START=$(date "+%s") && \
+#   dart run build_runner build --delete-conflicting-outputs && \
+#   END=$(date "+%s") && \
+#   echo $(($END - $START)) && \
+#   echo '\a'
+# '''
+
+targets:
+  $default:
+    builders:
+      injectable_generator|injectable_config_builder:
+        enabled: true
+        generate_for:
+          include:
+            - lib/addons_benefits_injection_module.dart

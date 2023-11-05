@@ -307,6 +307,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.2"
+  injectable_generator:
+    dependency: "direct dev"
+    description:
+      name: injectable_generator
+      sha256: f9d3c05f0938403f79ad6c6d23ec8e37a7a05ad980b1bf9399493f3e41845788
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.1"
   io:
     dependency: transitive
     description:
@@ -383,26 +391,26 @@ packages:
     dependency: "direct main"
     description:
       name: objectbox
-      sha256: "4b645c71771b87188442143a50c55ab238a8e60fe367b6a0968c0842292ffb30"
+      sha256: "3c9d13df69e0d0084f5c395b11dc9c8fbe6d9dbca5051f9ac981b5d93c773461"
       url: "https://pub.dev"
     source: hosted
-    version: "2.3.1"
+    version: "2.2.1"
   objectbox_flutter_libs:
     dependency: "direct main"
     description:
       name: objectbox_flutter_libs
-      sha256: e9a3d8e3ce0d47d6fc942921ef0444a238cd4258e8fcefe13b994cf984a8bf61
+      sha256: b2589ed58a04fd7c44a00baa38431ce0e980d052808f87e35a3ee338e586dba9
       url: "https://pub.dev"
     source: hosted
-    version: "2.3.1"
+    version: "2.2.1"
   objectbox_generator:
     dependency: "direct dev"
     description:
       name: objectbox_generator
-      sha256: aaffef7eb51b4d911bb00a7c52b19b55fe3e5a69de8ec56552cf35550a1e9beb
+      sha256: adb562ce5fe39439255b05890e748021250d9102726d8603f54d51e4620c7b33
       url: "https://pub.dev"
     source: hosted
-    version: "2.3.1"
+    version: "2.2.1"
   package_config:
     dependency: transitive
     description:
@@ -507,6 +515,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.3"
+  recase:
+    dependency: transitive
+    description:
+      name: recase
+      sha256: e4eb4ec2dcdee52dcf99cb4ceabaffc631d7424ee55e56f280bc039737f89213
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.1.0"
   shelf:
     dependency: transitive
     description:
