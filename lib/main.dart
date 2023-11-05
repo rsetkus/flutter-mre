@@ -8,7 +8,6 @@ void main() async {
   await runZonedGuarded(
       () async {
         await _registerDependencies();
-        _doBadThings();
         runApp(const MyApp());
       },
       (error, stackTrace) {
@@ -79,6 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
+    _doBadThings();
     setState(() {
       // This call to setState tells the Flutter framework that something has
       // changed in this State, which causes it to rerun the build method below
