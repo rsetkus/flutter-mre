@@ -8,10 +8,10 @@
 // coverage:ignore-file
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
-import 'package:fluttermre/addon_reminder_data_repository.dart' as _i4;
-import 'package:fluttermre/addon_reminder_repository.dart' as _i3;
-import 'package:fluttermre/addons_object_box_storage_provider.dart' as _i5;
-import 'package:fluttermre/get_active_addon_reminders_use_case.dart' as _i6;
+import 'package:addon_benefits/addon_reminder_data_repository.dart' as _i4;
+import 'package:addon_benefits/addon_reminder_repository.dart' as _i3;
+import 'package:addon_benefits/addons_object_box_storage_provider.dart' as _i5;
+import 'package:addon_benefits/get_active_addon_reminders_use_case.dart' as _i6;
 import 'package:get_it/get_it.dart' as _i1;
 import 'package:injectable/injectable.dart' as _i2;
 

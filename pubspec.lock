@@ -9,6 +9,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "64.0.0"
+  addon_benefits:
+    dependency: "direct main"
+    description:
+      path: "features/addon_benefits"
+      relative: true
+    source: path
+    version: "0.0.1"
   analyzer:
     dependency: transitive
     description:
@@ -161,14 +168,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.3"
-  cryptography:
-    dependency: transitive
-    description:
-      name: cryptography
-      sha256: df156c5109286340817d21fa7b62f9140f17915077127dd70f8bd7a2a0997a35
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.5.0"
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -275,14 +274,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.1"
-  http:
-    dependency: transitive
-    description:
-      name: http
-      sha256: "759d1a329847dd0f39226c688d3e06a6b8679668e350e2891a6474f8b4bb8525"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.0"
   http_multi_server:
     dependency: transitive
     description:
@@ -307,14 +298,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.2"
-  injectable_generator:
-    dependency: "direct dev"
-    description:
-      name: injectable_generator
-      sha256: f9d3c05f0938403f79ad6c6d23ec8e37a7a05ad980b1bf9399493f3e41845788
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.4.1"
   io:
     dependency: transitive
     description:
@@ -388,7 +371,7 @@ packages:
     source: hosted
     version: "1.0.4"
   objectbox:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: objectbox
       sha256: "3c9d13df69e0d0084f5c395b11dc9c8fbe6d9dbca5051f9ac981b5d93c773461"
@@ -396,18 +379,10 @@ packages:
     source: hosted
     version: "2.2.1"
   objectbox_flutter_libs:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: objectbox_flutter_libs
       sha256: b2589ed58a04fd7c44a00baa38431ce0e980d052808f87e35a3ee338e586dba9
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.2.1"
-  objectbox_generator:
-    dependency: "direct dev"
-    description:
-      name: objectbox_generator
-      sha256: adb562ce5fe39439255b05890e748021250d9102726d8603f54d51e4620c7b33
       url: "https://pub.dev"
     source: hosted
     version: "2.2.1"
@@ -515,14 +490,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.3"
-  recase:
-    dependency: transitive
-    description:
-      name: recase
-      sha256: e4eb4ec2dcdee52dcf99cb4ceabaffc631d7424ee55e56f280bc039737f89213
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.1.0"
   shelf:
     dependency: transitive
     description:
@@ -544,14 +511,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
-  source_gen:
-    dependency: transitive
-    description:
-      name: source_gen
-      sha256: fc0da689e5302edb6177fdd964efcb7f58912f43c28c2047a808f5bfff643d16
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.4.0"
   source_span:
     dependency: transitive
     description:

@@ -1,7 +1,7 @@
 import 'dart:async';
 
+import 'package:addon_benefits/get_active_addon_reminders_use_case.dart';
 import 'package:flutter/material.dart';
-import 'get_active_addon_reminders_use_case.dart';
 import 'injection_container.dart' as di;
 
 void main() async {

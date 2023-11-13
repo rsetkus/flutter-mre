@@ -1,8 +1,7 @@
 import 'dart:async';
 
+import 'package:addon_benefits/core/addons_benefits_injection_module.dart';
 import 'package:get_it/get_it.dart';
-
-import 'addons_benefits_injection_module.dart';
 
 final injector = GetIt.instance;
 

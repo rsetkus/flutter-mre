@@ -3,9 +3,9 @@ import 'dart:async';
 import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
 
+import '../addons_object_box_storage_provider.dart';
+import '../injection_module.dart';
 import 'addons_benefits_injection_module.config.dart';
-import 'addons_object_box_storage_provider.dart';
-import 'injection_module.dart';
 
 @InjectableInit(
   initializerName: r'$initGetIt',

@@ -16,4 +16,4 @@ targets:
         enabled: true
         generate_for:
           include:
-            - lib/addons_benefits_injection_module.dart
+            - lib/core/addons_benefits_injection_module.dart
