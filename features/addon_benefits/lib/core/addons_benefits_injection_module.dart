@@ -26,9 +26,9 @@ class AddonsBenefitsInjectionModule implements InjectionModule {
   }
 
   Future<void> _registerProviders() async {
-    final addonsObjectBoxStorageProvider = AddonsObjectBoxStorageProvider.create();
+    final addonsObjectBoxStorageProvider = await AddonsObjectBoxStorageProvider.create();
 
-    injector.registerSingletonAsync<AddonsObjectBoxStorageProvider>(
+    injector.registerLazySingleton<AddonsObjectBoxStorageProvider>(
             () => addonsObjectBoxStorageProvider);
   }
 }
