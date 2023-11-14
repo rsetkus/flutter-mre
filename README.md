@@ -1,16 +1,10 @@
-# fluttermre
+# How to reproduce
+1. Set up Flutter version **3.10.6**
+2. Execute command `flutter build apk --release`
+3. Install application **build/app/outputs/flutter-apk/app-release.apk** to emulator or device
 
-Flutter MRE
+### Expected result
+Application starts, prompts splash screen and then opens home page.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Actual result
+Application gets stuck at splash screen. Logcat outputs error `Error: Attempt to execute code removed by Dart AOT compiler (TFA)`.
