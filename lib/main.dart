@@ -7,6 +7,7 @@ import 'injection_container.dart' as di;
 void main() async {
   await runZonedGuarded(
       () async {
+        WidgetsFlutterBinding.ensureInitialized();
         await _registerDependencies();
         runApp(const MyApp());
       },
